@@ -254,9 +254,6 @@ public class Woodcutting {
 				treeclipping,
 				clipping);
 
-		p.getPacketSender().sendMessage("Clipping: " + clipping);
-		p.getPacketSender().sendMessage("Reached: " + reached);
-
 		if (!reached) {
 			p.getPacketSender().sendMessage("Can't reach the tree from here.");
 		}
